@@ -9,7 +9,7 @@ import java.util.Random;
 import dominio.Partida;
 import dominio.Reglas;
 
-/** Estadio con público y cancha. Se dibuja una sola vez en una imagen (o se usa img/fondo_estadio.png). */
+/** Estadio con público y cancha. Se dibuja una sola vez en una imagen */
 public class RenderizadorFondo implements Renderizador {
     private static BufferedImage cache;
 
