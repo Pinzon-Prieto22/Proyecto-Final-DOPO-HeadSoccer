@@ -1,0 +1,15 @@
+En terminal
+
+1. Movernos a la dirección de la carpeta
+cd "PATH de la carpeta"
+
+ahora estando ubicados en la carpeta:
+
+2. compilar dominio
+javac -d bin\dominio dominio\*.java
+
+3. compilar todo
+javac -cp bin\dominio -d bin\presentacion presentacion\*.java
+
+4. ejecutamos
+java -cp bin\dominio;bin\presentacion presentacion.Main
